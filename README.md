@@ -5,7 +5,6 @@ A FastAPI-powered application that leverages Claude AI (Anthropic) to generate d
 ## Features 
 
 ### YouTube Tools 🎥
-- **Video Hook Generator**: Creates 10 engaging video hooks based on topic, target audience, and context
 - **Description Generator**: Creates optimized descriptions for both long and short-form videos
 - **Hashtag Generator**: Generates platform-specific hashtags in multiple languages
 - **Title Generator**: Creates 10 catchy video titles based on provided details
