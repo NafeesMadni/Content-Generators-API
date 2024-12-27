@@ -1,5 +1,5 @@
 # Social Media Content Generator API 🚀
-
+ 
 A FastAPI-powered application that leverages Claude AI (Anthropic) to generate diverse content for social media platforms, including YouTube, Instagram, and TikTok. The application is being expanded to include video downloading capabilities for Reddit, Facebook, Instagram, LinkedIn, X (formerly Twitter), Pinterest, and TikTok (currently under development).
 
 ## Features 
