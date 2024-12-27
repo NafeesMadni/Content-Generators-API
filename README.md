@@ -93,7 +93,7 @@ POST /tiktok/caption-generator
 POST /tiktok/hashtag-generator
 ```
 
-### Content Creation Tools
+### Content Creation Endpoints
 ```
 POST /content-creation/video-hook-generator
 POST /content-creation/video-script-generator
