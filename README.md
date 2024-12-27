@@ -37,20 +37,7 @@ A FastAPI-powered application that leverages Claude AI (Anthropic) to generate d
 
 ## Installation
 
-1. Create a requirements.txt file with the following dependencies:
-```txt
-fastapi>=0.68.0
-uvicorn>=0.15.0
-pydantic>=1.8.0
-python-dotenv>=0.19.0
-anthropic>=0.3.0
-pytest>=6.2.4
-httpx>=0.24.0
-python-multipart>=0.0.5
-requests>=2.31.0
-```
-
-2. Install the dependencies:
+Install the dependencies:
 ```bash
 pip install -r requirements.txt
 ```
