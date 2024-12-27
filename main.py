@@ -9,7 +9,6 @@ from app.free_tools import (
 # API TESTING: pytest app/free_tools/testing/test_api.py
 
 app = FastAPI()
-
 app.include_router(youtube.router, prefix="/youtube", tags=["YouTube"])
 app.include_router(instagram.router, prefix="/instagram", tags=["Instagram"])
 app.include_router(tiktok.router, prefix="/tiktok", tags=["Tiktok"])
