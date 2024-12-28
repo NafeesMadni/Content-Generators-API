@@ -101,8 +101,8 @@ All endpoints return responses in the following JSON format:
 ```json
 {
     "data": "<generated_content>",
-    "message": "Success",
-    "error": false
+    "message": "Success | Error",
+    "error": false | true
 }
 ```
 
