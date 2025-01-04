@@ -69,7 +69,7 @@ def get_caption(request: CpationRequestModel):
          ]
       }
    ]
-   return get_response(model="claude-2.1", max_tokens=400, temperature=0.8, system=system, messages=messages, data="")   
+   return get_response(max_tokens=400, temperature=0.8, system=system, messages=messages, data="")   
 
 @router.post("/hashtag-generator")
 def get_hashtags(request: HashtagsRequestModel):
@@ -144,4 +144,4 @@ def get_hashtags(request: HashtagsRequestModel):
       }
    ]
    
-   return get_response(model="claude-2.1", max_tokens=200, temperature=0.4, system=system, messages=messages, data="")   
+   return get_response(max_tokens=200, temperature=0.4, system=system, messages=messages, data="")   

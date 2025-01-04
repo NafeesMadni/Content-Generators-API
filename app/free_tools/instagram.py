@@ -67,7 +67,7 @@ def get_caption(request: CaptionRequestModel):
             ]
       }
    ]
-   return get_response(model="claude-2.1", max_tokens=400, temperature=0.8, system=system, messages=messages, data="") 
+   return get_response(max_tokens=400, temperature=0.8, system=system, messages=messages, data="") 
 
 @router.post("/username-generator")
 def get_username(request: UsernameRequestModel):
@@ -133,4 +133,4 @@ def get_username(request: UsernameRequestModel):
       }
    ]
    
-   return get_response(model="claude-2.1", max_tokens=200, temperature=0.7, system=system, messages=messages, data=[]) 
+   return get_response(max_tokens=200, temperature=0.7, system=system, messages=messages, data=[]) 

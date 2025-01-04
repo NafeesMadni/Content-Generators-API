@@ -8,7 +8,7 @@ from constants import MODEL, HTTP_200_OK, HTTP_400_BAD_REQUEST, HTTP_500_INTERNA
 load_dotenv()
 client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
 
-def get_response(model, max_tokens, temperature, system, messages, data):
+def get_response(max_tokens, temperature, system, messages, data):
    try:
       response = client.messages.create(
          model=MODEL,

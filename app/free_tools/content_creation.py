@@ -65,7 +65,7 @@ def get_video_hooks(request: HooksRequestModel):
       }
    ]
    
-   return get_response(model="claude-2.1", max_tokens=400, temperature=0.8, system=system, messages=messages, data=[]) 
+   return get_response(max_tokens=400, temperature=0.8, system=system, messages=messages, data=[]) 
 
 @router.post("/video-script-generator")
 def get_video_script(request: ScriptRequestModel):
@@ -124,7 +124,7 @@ def get_video_script(request: ScriptRequestModel):
       }
    ]
    
-   return get_response(model="claude-2.1", max_tokens=1500, temperature=0.7, system=system, messages=messages, data="")   
+   return get_response(max_tokens=1500, temperature=0.7, system=system, messages=messages, data="")   
 
 @router.post("/ai-video-idea-generator")
 def get_video_ideas(request: IdeasRequestModel):
@@ -175,4 +175,4 @@ def get_video_ideas(request: IdeasRequestModel):
       }
    ]
    
-   return get_response(model="claude-2.1", max_tokens=300, temperature=0.8, system=system, messages=messages, data=[])   
+   return get_response(max_tokens=300, temperature=0.8, system=system, messages=messages, data=[])   

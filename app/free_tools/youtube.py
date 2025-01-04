@@ -80,7 +80,7 @@ def get_description(request: DescriptionRequestModel):
          ]
       }
    ]
-   return get_response(model="claude-2.1", max_tokens=250, temperature=0.7, system=system, messages=messages, data="") 
+   return get_response(max_tokens=250, temperature=0.7, system=system, messages=messages, data="") 
    
 @router.post("/hashtag-generator")
 def get_hashtags(request: HashtagsRequestModel):
@@ -148,7 +148,7 @@ def get_hashtags(request: HashtagsRequestModel):
       }
    ]
       
-   return get_response(model="claude-2.1", max_tokens=400, temperature=0.4, system=system, messages=messages, data="") 
+   return get_response(max_tokens=400, temperature=0.4, system=system, messages=messages, data="") 
 
 @router.post("/title-generator")
 def get_titles(request: TitlesRequestModel):
@@ -203,7 +203,7 @@ def get_titles(request: TitlesRequestModel):
       }
    ]
       
-   return get_response(model="claude-2.1", max_tokens=300, temperature=0.5, system=system, messages=messages, data=[]) 
+   return get_response(max_tokens=300, temperature=0.5, system=system, messages=messages, data=[]) 
       
 @router.post("/username-generator")
 def get_usernames(request: UsernamesRequestModel):
@@ -262,4 +262,4 @@ def get_usernames(request: UsernamesRequestModel):
       }
    ]
       
-   return get_response(model="claude-2.1", max_tokens=200, temperature=0.7, system=system, messages=messages, data=[]) 
+   return get_response(max_tokens=200, temperature=0.7, system=system, messages=messages, data=[]) 
