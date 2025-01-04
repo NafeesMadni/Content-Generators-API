@@ -128,4 +128,4 @@ pytest app/free_tools/testing/test_api.py
 ```
 
 ---
-*Note: This API utilizes Claude AI model 2.1 for content generation. Ensure you have the necessary API credentials before deployment.*
+*Note: This API utilizes claude-3-5-sonnet-20241022 for content generation. Ensure you have the necessary API credentials before deployment.*
