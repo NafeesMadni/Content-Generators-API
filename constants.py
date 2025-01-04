@@ -1,3 +1,6 @@
+# MODEL CONSTANTS
+MODEL = "claude-3-5-sonnet-20241022"
+
 # Success responses
 HTTP_200_OK = 200
 HTTP_201_CREATED = 201

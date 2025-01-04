@@ -6,7 +6,7 @@ from app.free_tools import (
     content_creation
 )
 
-# API TESTING: pytest app/free_tools/testing/test_api.py
+# API TESTING: pytest app/free_tools/testing/test_api.py -v
 
 app = FastAPI()
 app.include_router(youtube.router, prefix="/youtube", tags=["YouTube"])
