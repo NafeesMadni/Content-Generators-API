@@ -27,7 +27,7 @@ A FastAPI-powered application that leverages Claude AI (Anthropic) to generate d
 ## Technology Stack
 
 - **Framework**: FastAPI
-- **AI Model**: Claude 2.1 (Anthropic)
+- **AI Model**: claude-3-5-sonnet-20241022 (Anthropic)
 - **Python Libraries**:
   - anthropic
   - pydantic
