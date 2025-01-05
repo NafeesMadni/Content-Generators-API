@@ -124,7 +124,7 @@ ANTHROPIC_API_KEY=your_api_key_here
 
 Tests can be run using pytest:
 ```bash
-pytest app/free_tools/testing/test_api.py
+pytest app/free_tools/testing/test_api.py -v
 ```
 
 ---
